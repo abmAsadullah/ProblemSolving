@@ -6,7 +6,6 @@ int main()
 {
     int i, j;
     while(scanf("%d %d", &i, &j) != EOF){
-    //cin >>i >>j;
     int a, b, n, r, f = 0;
     a = i;
     b = j;
