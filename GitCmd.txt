@@ -1,0 +1,100 @@
+Git Command
+===========
+*Working Directory
+* Staging Area
+* Locak Repository
+==
+*Remote Repository
+==================
+
+Start: 
+==============
+clear (to clear)
+git init (start)
+
+
+$ git config --global user.name "abmasadullah"
+$ git config --global user.email "abmasadullah@gmail.com"
+$ git config --list (to see name and email)
+$ git status (see status)
+staging area[
+$ git add (file.ext to stage/add)
+$ git add --all (stage/add all)
+$ git add .     (stage/add all)    
+]
+
+commit local[
+git commit -m "Messege of commit"
+git log
+git log --oneline
+]
+****************
+****************
+if updated[
+git add .
+git commit -m "Messge of commit"
+git status
+git log --oneline
+=======
+daily update:
+git push -u origin master
+git pull (if update on github)
+=======
+another:
+git diff (difference of first to last change)
+git diff (id space id to see id to id change)
+git diff --staged (different in stage *if added)
+git rm (file.ext) (permanently delete file) +
+git reset HEAD (file.ext)
+git show (id of the commit number) (see change of that commit)
+]
+
+
+return/ last commit return[
+git checkout "serial number 81e8c1a"
+git checkout master (to go main master user)
+
+]
+
+branch [
+git branch (name like "idbranch")
+git branch (to see branch)
+git checkout (changing branch name) (to change branch as like master to idbranch)
+]
+
+
+
+==============================
+///////////////////////////////
+Here Windows Command:
+CMD
+color
+color 0A
+color/?
+
+dir (see file or folder)
+dir/a   (hidden)
+dir * (.ext) (only see .ext file)
+wmic logicaldisk get name (see drive of computer)
+mkdir (name) (make directory)
+rmdir (name) (remove/delete if empty folder)
+rmdir /s (name) (remove if have file)
+(open file => just type name with extention)
+echo >(name.ext)  (file create)
+type (filename.ext) (to read file in cmd)
+echo (write/replace something in the file) > (name.ext)
+echo (add something in the file) >> (name.ext)
+copy (filename space filename/folder)
+move (folder/filename space folder/filename) 
+del (filename.ext) (to delete file)
+dir >> (file.ext) (copy directory all folder/file name to .ext)
+
+
+
+ctrl + < or >  (jump first letter of word)
+c: or d: or e: (to go another drive)
+
+
+cd /    cd ../.. (jump back two)
+
+cd (tab change same directory to another) 
